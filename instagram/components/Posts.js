@@ -17,7 +17,6 @@ function Posts() {
             ...doc.data(),
           }));
 
-          // console.log(postData);
           setPosts(postData);
         }
       ),
